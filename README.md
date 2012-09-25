@@ -11,9 +11,8 @@ Get Vagrant http://vagrantup.com/
 Clone this repo
 
 Run
-
-vagrant up
-vagrant ssh
+    vagrant up
+    vagrant ssh
 
 continue from the Download section on the webOS project page
 https://github.com/openwebos/build-desktop#downloading
