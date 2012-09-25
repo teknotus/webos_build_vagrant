@@ -5,7 +5,7 @@ Vagrant::Config.run do |config|
   config.vm.define :webos do |webos_config|
     webos_config.vm.host_name = "webos"
     webos_config.vm.network :hostonly, "192.168.2.10"
-    webos_config.vm.box = "precise64"
+    webos_config.vm.box = "precise32"
     webos_config.vm.share_folder("v-root", "/vagrant", "./webos", :extra => 'dmode=770,fmode=770')
     webos_config.vm.share_folder("webos-source", "/vagrant/webos/source", "./source/webos")
 
