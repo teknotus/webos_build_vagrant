@@ -11,6 +11,7 @@ Get Vagrant http://vagrantup.com/
 Clone this repo
 
 Run
+
     vagrant up
     vagrant ssh
 
